@@ -32,7 +32,7 @@
     $food = sanitise_input($_POST["food"]);
 
     // Validate Number (required)
-    if (!empty($firstname)) {
+    if (empty($firstname)) {
         echo "Number is required.<br>";
     } 
 
